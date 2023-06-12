@@ -4,7 +4,9 @@ in my Masters degree in AI.
 The project analyzes the N-Queens problem and defines the cost function, solution represntations as(Phenotype, Genotype) where the Genetic Algorithm is applied and experimented
 with different chess board dimensions (N x N). My solution is finally visualized in matlab app where users have live run of the evolutionary algorithm after entering the 
 parameters of their experiments then the results are directly visualized and easily analyzed in terms final fitness, final solution, solution convergence curve over generations.<br>
-![image](https://github.com/shaimaaK/N-queens/assets/54285485/030fe282-3be3-42a2-beb4-fe1f3c48ddcc)
+<p align="center">
+  <img  src="https://github.com/shaimaaK/N-queens/assets/54285485/030fe282-3be3-42a2-beb4-fe1f3c48ddcc">
+</p>
 ## Table of Content
 - [Abstract](#abstract)
 - [N Queens Problem](#n-queens-problem)
@@ -36,14 +38,19 @@ Each of the solutions in the population represents a single candidate N queens l
 x = (Q1, Q2, . . . , Qn), where n represents the column locations in the chessboard of dimension( n x n ) while the value of each variable Q denotes its row location on the chessboard. This solution representation helped building better initial population by choosing permutation solution representation thus guaranteeing each queen is in a different column and row combination. As a result, the objective function (solution feasibility check) emphesize checking diagonally and anti-diagonally conflict among the queens on the chessboard.
 ###  Objective Function
 The fitness value of each queen is indicated by the number of other queens on the board that it can attack each with one move. The goal here is to minimize the number of candidate endangered queens though placing each queens by which each queen is not threatened by any other. The fitness value of a solution is the summation of all queens fitness value.
-![image](https://github.com/shaimaaK/N-queens/assets/54285485/80d70170-5ddd-4164-9cbc-c51bd5121e70)
+<p align="center">
+  <img  src="https://github.com/shaimaaK/N-queens/assets/54285485/80d70170-5ddd-4164-9cbc-c51bd5121e70">
+</p>
 
 ## Experiments and Results
 The experiments on N Queens puzzle solver based on GA are implemented on the following board sizes:
 - 4 X 4
 - 8 X 8
 - 16 X 16 </ul>
-![image](https://github.com/shaimaaK/N-queens/assets/54285485/1d74d0fc-7ad1-473b-bd5a-dc4af44246e4)
+<p align="center">
+  <img  src="https://github.com/shaimaaK/N-queens/assets/54285485/1d74d0fc-7ad1-473b-bd5a-dc4af44246e4">
+</p>
+
 The following table shows a brief description of the implementation
 
 | **Method**                             	| **Name**        	                 |
@@ -64,10 +71,14 @@ The following table shows a brief description of the implementation
 
 The experiments showed good performance where the algorithm showed an efficient and timely performance. The main challenge and limitation of my work are evedint in the experiments on boards larger than 16 which did not succeed as the search space becomes large and complex hence requires integrating powerful techniques and specialized operators to search the solution space more effectively and efficiently.
  
- ## Simulation
- For seemless experince and easy testing of the implementation, I have included an app version that can be executed from matlab using [matlab app designeer](https://www.mathworks.com/products/matlab/app-designer.html). The simulation has the default parameter values that obtains the N Queen puzzle up to N = 16
+## Simulation
+For seemless experince and easy testing of the implementation, I have included an app version that can be executed from matlab using [matlab app designeer](https://www.mathworks.com/products/matlab/app-designer.html). The simulation has the default parameter values that obtains the N Queen puzzle up to N = 16
+ <p align="center">
+  <img  src="https://github.com/shaimaaK/N-queens/blob/main/resouces/simulation.gif">
+</p>
+ 
   
-  ## Resources
-  [1] I. Martinjak, M. Golub, Comparison of heuristic algorithms for the nqueen problem, in: 2007 29th International Conference on Information
+## Resources
+[1] I. Martinjak, M. Golub, Comparison of heuristic algorithms for the nqueen problem, in: 2007 29th International Conference on Information
 Technology Interfaces, IEEE, 2007, pp. 759–764.
   

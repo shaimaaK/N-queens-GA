@@ -3,10 +3,11 @@ Evolutionary Approach is studied for solving the N-Queens problem using Genetic 
 in my Masters degree in AI.
 The project analyzes the N-Queens problem and defines the cost function, solution represntations as(Phenotype, Genotype) where the Genetic Algorithm is applied and experimented
 with different chess board dimensions (N x N). My solution is finally visualized in matlab app where users have live run of the evolutionary algorithm after entering the 
-parameters of their experiments then the results are directly visualized and easily analyzed in terms final fitness, final solution, solution convergence curve over generations.<br>
+parameters of their experiments then the results are directly visualized and easily analyzed in terms final fitness, final solution, solution convergence curve over generations.
 <p align="center">
   <img  src="https://github.com/shaimaaK/N-queens/assets/54285485/030fe282-3be3-42a2-beb4-fe1f3c48ddcc">
 </p>
+
 ## Table of Content
 - [Abstract](#abstract)
 - [N Queens Problem](#n-queens-problem)
